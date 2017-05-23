@@ -6,6 +6,8 @@ target 'ImageSearch' do
   use_frameworks!
 
   # Pods for ImageSearch
+  pod "lottie-ios"
+
 
   target 'ImageSearchTests' do
     inherit! :search_paths
